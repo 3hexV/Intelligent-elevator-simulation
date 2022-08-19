@@ -1,0 +1,149 @@
+Dependencies for Project 'test', Target 'rc522_test': (DO NOT MODIFY !)
+F (..\user\main.c)(0x5FD84BAE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\main.o" --omf_browse "..\obj\main.crf" --depend "..\obj\main.d")
+I (..\user\main.h)(0x5FD7330E)
+I (..\user\systick\user_SysTick.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (..\user\rc522\rc522_config.h)(0x5FCF1B4C)
+I (..\user\rc522\rc522_function.h)(0x5FDB515A)
+I (..\mcu\it\stm32f10x_it.h)(0x5FCF1B4C)
+I (..\user\rc522_test.h)(0x5FD7330E)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdbool.h)(0x50F96150)
+I (..\user\usart\usart.h)(0x5FCEEF5F)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\user\jz_key.h)(0x5FD750C7)
+F (..\user\rc522_test.c)(0x5FDF08EE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\rc522_test.o" --omf_browse "..\obj\rc522_test.crf" --depend "..\obj\rc522_test.d")
+I (..\user\rc522_test.h)(0x5FD7330E)
+I (..\user\rc522\rc522_config.h)(0x5FCF1B4C)
+I (..\user\rc522\rc522_function.h)(0x5FDB515A)
+I (..\mcu\it\stm32f10x_it.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdbool.h)(0x50F96150)
+I (..\user\systick\user_SysTick.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (..\user\usart\usart.h)(0x5FCEEF5F)
+F (..\user\rc522\rc522_config.c)(0x5FCF1B4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\rc522_config.o" --omf_browse "..\obj\rc522_config.crf" --depend "..\obj\rc522_config.d")
+I (..\user\rc522\rc522_config.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+F (..\user\rc522\rc522_function.c)(0x5FD732AC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\rc522_function.o" --omf_browse "..\obj\rc522_function.crf" --depend "..\obj\rc522_function.d")
+I (..\user\rc522\rc522_function.h)(0x5FDB515A)
+I (..\mcu\it\stm32f10x_it.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (..\user\rc522\rc522_config.h)(0x5FCF1B4C)
+I (..\user\systick\user_SysTick.h)(0x5FCF1B4C)
+F (..\user\jz_key.c)(0x5FDB513A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\jz_key.o" --omf_browse "..\obj\jz_key.crf" --depend "..\obj\jz_key.d")
+I (..\user\jz_key.h)(0x5FD750C7)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (..\user\main.h)(0x5FD7330E)
+I (..\user\systick\user_SysTick.h)(0x5FCF1B4C)
+I (..\user\rc522\rc522_config.h)(0x5FCF1B4C)
+I (..\user\rc522\rc522_function.h)(0x5FDB515A)
+I (..\mcu\it\stm32f10x_it.h)(0x5FCF1B4C)
+I (..\user\rc522_test.h)(0x5FD7330E)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdbool.h)(0x50F96150)
+I (..\user\usart\usart.h)(0x5FCEEF5F)
+F (..\user\usart\usart.c)(0x5FD85341)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\usart.o" --omf_browse "..\obj\usart.crf" --depend "..\obj\usart.d")
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (..\user\usart\usart.h)(0x5FCEEF5F)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\user\systick\user_SysTick.c)(0x5FD7398C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\user_systick.o" --omf_browse "..\obj\user_systick.crf" --depend "..\obj\user_systick.d")
+I (..\user\systick\user_SysTick.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+F (..\mcu\core\core_cm3.c)(0x5FCF1B4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\core_cm3.o" --omf_browse "..\obj\core_cm3.crf" --depend "..\obj\core_cm3.d")
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (..\mcu\system\system_stm32f10x.c)(0x5FCF1B4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\system_stm32f10x.o" --omf_browse "..\obj\system_stm32f10x.crf" --depend "..\obj\system_stm32f10x.d")
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+F (..\mcu\gpio\stm32f10x_gpio.c)(0x5FCF1B4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\stm32f10x_gpio.o" --omf_browse "..\obj\stm32f10x_gpio.crf" --depend "..\obj\stm32f10x_gpio.d")
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+F (..\mcu\rcc\stm32f10x_rcc.c)(0x5FCF1B4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\stm32f10x_rcc.o" --omf_browse "..\obj\stm32f10x_rcc.crf" --depend "..\obj\stm32f10x_rcc.d")
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+F (..\mcu\usart\stm32f10x_usart.c)(0x5FCF1B4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\stm32f10x_usart.o" --omf_browse "..\obj\stm32f10x_usart.crf" --depend "..\obj\stm32f10x_usart.d")
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+F (..\mcu\it\stm32f10x_it.c)(0x5FD73368)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\stm32f10x_it.o" --omf_browse "..\obj\stm32f10x_it.crf" --depend "..\obj\stm32f10x_it.d")
+I (..\mcu\it\stm32f10x_it.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x508759B8)
+I (..\mcu\core\core_cm3.h)(0x5FCF1B4C)
+I (D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x508759B8)
+I (..\user\stm32f10x_conf.h)(0x5FCF1B4C)
+I (..\mcu\gpio\stm32f10x_gpio.h)(0x5FCF1B4C)
+I (..\mcu\rcc\stm32f10x_rcc.h)(0x5FCF1B4C)
+I (..\mcu\usart\stm32f10x_usart.h)(0x5FCF1B4C)
+I (..\user\systick\user_SysTick.h)(0x5FCF1B4C)
+F (..\startup\startup_stm32f10x_hd.s)(0x5FCF1B4C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I D:\Programs_\keil4\ARM\RV31\INC -I D:\Programs_\keil4\ARM\CMSIS\Include -I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x --list ".\startup_stm32f10x_hd.lst" --xref -o "..\obj\startup_stm32f10x_hd.o" --depend "..\obj\startup_stm32f10x_hd.d")

@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "..\obj\main.o" "..\obj\rc522_test.o" "..\obj\rc522_config.o" "..\obj\rc522_function.o" "..\obj\jz_key.o" "..\obj\usart.o" "..\obj\user_systick.o" "..\obj\core_cm3.o" "..\obj\system_stm32f10x.o" "..\obj\stm32f10x_gpio.o" "..\obj\stm32f10x_rcc.o" "..\obj\stm32f10x_usart.o" "..\obj\stm32f10x_it.o" "..\obj\startup_stm32f10x_hd.o" 
+--library_type=microlib --strict --scatter "..\obj\test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\test.map" -o ..\obj\test.axf

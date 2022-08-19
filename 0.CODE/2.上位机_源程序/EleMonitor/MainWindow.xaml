@@ -1,0 +1,37 @@
+﻿<Window x:Class="EleMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EleMonitor"
+        mc:Ignorable="d"
+        Title="智能电梯监控系统" Height="402" Width="800">
+    <Grid Margin="0,0,-0.4,2">
+        <GroupBox Header="明火监控" HorizontalAlignment="Left" Height="79" Margin="276,9,0,0" VerticalAlignment="Top" Width="508"/>
+
+
+        <GroupBox Header="通信控制" HorizontalAlignment="Left" Height="190" VerticalAlignment="Top" Width="249" Margin="10,10,0,0"/>
+
+
+        <Button x:Name="btn_Open" Content="建立通信" HorizontalAlignment="Left" Margin="23,91,0,0" VerticalAlignment="Top" Width="221" RenderTransformOrigin="-0.004,-0.614" Height="33"  FontSize="20" Click="btn_Open_Click"/>
+        <Label Content="火焰：" HorizontalAlignment="Left" Margin="293,33,0,0" VerticalAlignment="Top" Height="38" Width="107" FontSize="20"/>
+        <Label Content="光照：" HorizontalAlignment="Left" Margin="293,136,0,0" VerticalAlignment="Top" Height="82" Width="186"  FontSize="20"/>
+        <TextBox  x:Name="tb_fire_state"  HorizontalAlignment="Left" Height="29" Margin="359,38,0,0" TextWrapping="Wrap" Text="正常" VerticalAlignment="Top" Width="120"  FontSize="20"/>
+        <TextBox  x:Name="tb_light_state"  HorizontalAlignment="Left" Height="30" Margin="359,140,0,0" TextWrapping="Wrap" Text="一档" VerticalAlignment="Top" Width="120"  FontSize="20"/>
+        <Label Content="一号灯：" HorizontalAlignment="Left" Margin="537,111,0,0" VerticalAlignment="Top" Height="66" Width="107" FontSize="20"/>
+        <TextBox  x:Name="tb_fire_light"  HorizontalAlignment="Left" Height="29" Margin="649,38,0,0" TextWrapping="Wrap" Text="熄灭" VerticalAlignment="Top" Width="120"  FontSize="20"/>
+        <Label Content="火焰报警灯：" HorizontalAlignment="Left" Margin="515,35,0,0" VerticalAlignment="Top" Height="33" Width="129" FontSize="20" RenderTransformOrigin="0.479,0.8"/>
+        <TextBox  x:Name="tb_one_light"  HorizontalAlignment="Left" Height="29" Margin="649,115,0,0" TextWrapping="Wrap" Text="亮起" VerticalAlignment="Top" Width="120"  FontSize="20"/>
+        <Label   Content="二号灯：" HorizontalAlignment="Left" Margin="537,152,0,0" VerticalAlignment="Top" Height="66" Width="107" FontSize="20"/>
+        <TextBox x:Name="tb_two_light"  HorizontalAlignment="Left" Height="29" Margin="649,156,0,0" TextWrapping="Wrap" Text="熄灭" VerticalAlignment="Top" Width="120"  FontSize="20"/>
+        <TextBox x:Name="tb_rec"  HorizontalAlignment="Left" Height="96" Margin="10,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="774"   FontSize="20"/>
+        <Label  FontSize="20" Content="通信端口：" HorizontalAlignment="Left" Margin="23,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.115,0.484"/>
+        <TextBox x:Name="tb_com" FontSize="20"  HorizontalAlignment="Left" Height="23" Margin="133,37,0,0" TextWrapping="Wrap" Text="COM6" VerticalAlignment="Top" Width="110"/>
+        <Label  FontSize="20" Content="端口状态：" HorizontalAlignment="Left" Margin="23,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.115,0.484"/>
+        <Label x:Name="lb_state" Foreground="red" FontSize="20" Content="♦" HorizontalAlignment="Left" Margin="161,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.115,0.484" FontWeight="Bold"/>
+        <Label  FontSize="20" Content="接收的数据(Hex显示）：" HorizontalAlignment="Left" Margin="10,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.115,0.484"/>
+        <GroupBox Header="光照监控" HorizontalAlignment="Left" Height="102" Margin="276,98,0,0" VerticalAlignment="Top" Width="508"/>
+
+
+    </Grid>
+</Window>

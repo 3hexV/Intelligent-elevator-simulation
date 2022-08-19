@@ -1,0 +1,11 @@
+..\obj\rc522_config.o: ..\user\rc522\rc522_config.c
+..\obj\rc522_config.o: ..\user\rc522\rc522_config.h
+..\obj\rc522_config.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\rc522_config.o: ..\mcu\core\core_cm3.h
+..\obj\rc522_config.o: D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\rc522_config.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\obj\rc522_config.o: ..\user\stm32f10x_conf.h
+..\obj\rc522_config.o: ..\mcu\gpio\stm32f10x_gpio.h
+..\obj\rc522_config.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\rc522_config.o: ..\mcu\rcc\stm32f10x_rcc.h
+..\obj\rc522_config.o: ..\mcu\usart\stm32f10x_usart.h

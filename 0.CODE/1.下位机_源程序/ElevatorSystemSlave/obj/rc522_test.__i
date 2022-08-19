@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\mcu\core -I..\startup -I..\user\systick -I..\user -I..\mcu\system -I..\user\usart -I..\mcu\gpio -I..\mcu\rcc -I..\mcu\usart -I..\user\rc522 -I..\mcu\it 
+-I D:\Programs_\keil4\ARM\RV31\INC 
+-I D:\Programs_\keil4\ARM\CMSIS\Include 
+-I D:\Programs_\keil4\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\rc522_test.o" --omf_browse "..\obj\rc522_test.crf" --depend "..\obj\rc522_test.d" "..\user\rc522_test.c"

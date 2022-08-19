@@ -1,0 +1,11 @@
+..\obj\stm32f10x_rcc.o: ..\mcu\rcc\stm32f10x_rcc.c
+..\obj\stm32f10x_rcc.o: ..\mcu\rcc\stm32f10x_rcc.h
+..\obj\stm32f10x_rcc.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\stm32f10x_rcc.o: ..\mcu\core\core_cm3.h
+..\obj\stm32f10x_rcc.o: D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\stm32f10x_rcc.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\obj\stm32f10x_rcc.o: ..\user\stm32f10x_conf.h
+..\obj\stm32f10x_rcc.o: ..\mcu\gpio\stm32f10x_gpio.h
+..\obj\stm32f10x_rcc.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\stm32f10x_rcc.o: ..\mcu\rcc\stm32f10x_rcc.h
+..\obj\stm32f10x_rcc.o: ..\mcu\usart\stm32f10x_usart.h

@@ -1,0 +1,12 @@
+..\obj\usart.o: ..\user\usart\usart.c
+..\obj\usart.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\usart.o: ..\mcu\core\core_cm3.h
+..\obj\usart.o: D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\usart.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\obj\usart.o: ..\user\stm32f10x_conf.h
+..\obj\usart.o: ..\mcu\gpio\stm32f10x_gpio.h
+..\obj\usart.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\usart.o: ..\mcu\rcc\stm32f10x_rcc.h
+..\obj\usart.o: ..\mcu\usart\stm32f10x_usart.h
+..\obj\usart.o: ..\user\usart\usart.h
+..\obj\usart.o: D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdio.h

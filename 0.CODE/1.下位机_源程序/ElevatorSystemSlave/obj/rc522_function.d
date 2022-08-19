@@ -1,0 +1,14 @@
+..\obj\rc522_function.o: ..\user\rc522\rc522_function.c
+..\obj\rc522_function.o: ..\user\rc522\rc522_function.h
+..\obj\rc522_function.o: ..\mcu\it\stm32f10x_it.h
+..\obj\rc522_function.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\rc522_function.o: ..\mcu\core\core_cm3.h
+..\obj\rc522_function.o: D:\Programs_\keil4\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\rc522_function.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+..\obj\rc522_function.o: ..\user\stm32f10x_conf.h
+..\obj\rc522_function.o: ..\mcu\gpio\stm32f10x_gpio.h
+..\obj\rc522_function.o: D:\Programs_\keil4\ARM\Inc\ST\STM32F10x\stm32f10x.h
+..\obj\rc522_function.o: ..\mcu\rcc\stm32f10x_rcc.h
+..\obj\rc522_function.o: ..\mcu\usart\stm32f10x_usart.h
+..\obj\rc522_function.o: ..\user\rc522\rc522_config.h
+..\obj\rc522_function.o: ..\user\systick\user_SysTick.h
